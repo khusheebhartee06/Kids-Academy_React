@@ -1,0 +1,62 @@
+
+/* ------WhyChoose-header ------------- */
+.WhyChoose .WhyChoose-header{
+    max-width: 650px;
+    margin: 0px auto 55px;
+}
+.WhyChoose .choose-left .choose-item{
+    text-align: right;
+    position: relative;
+    margin-bottom: 10px;
+}
+.WhyChoose .choose-left .choose-item .icon {
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    color: #fff;
+    border-radius: 100%;
+    margin-top: 10px;
+    font-size: 32px;
+    line-height: 2.2;
+  transition: all 1s ease;
+  float: right;
+  margin-left: 20px;
+}
+.WhyChoose .choose-right .choose-item{
+    text-align: left;
+    position: relative;
+    margin-bottom: 10px;
+}
+.WhyChoose .choose-right .choose-item .icon {
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    color: #fff;
+    border-radius: 100%;
+    margin-top: 10px;
+    font-size: 32px;
+    line-height: 2.2;
+  transition: all 1s ease;
+  margin-right: 20px;
+  
+  float: left;
+}
+.WhyChoose .choose-item:hover .icon{
+    transform: rotate(360deg);
+}
+.WhyChoose .choose-item .choose-content{
+    display: table;
+}
+@media only screen and (max-width: 991px) {
+    .WhyChoose .choose-item {
+        text-align: center !important;
+    }
+    .WhyChoose .choose-item .icon{
+        float: none;
+        margin: 0px 0px 10px 0px;
+    }
+}
+
+/* ------WhyChoose-header ------------- */

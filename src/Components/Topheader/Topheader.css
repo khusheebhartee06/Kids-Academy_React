@@ -1,0 +1,30 @@
+#Topheader {
+    height: 50px;
+    padding: 11px 60px;
+}
+
+#Topheader ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+#Topheader ul li a {
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width:1123px) {
+    #Topheader {
+        height: 50px;
+        padding: 11px 0px;
+    }
+
+    #Topheader ul li {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    #Topheader {
+        display: none;
+    }
+}

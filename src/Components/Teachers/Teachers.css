@@ -1,0 +1,35 @@
+.AllTeachers .teachers-header p {
+    line-height: 30px;
+    color: white;
+}
+
+.AllTeachers .teachers-content {
+    position: relative;
+}
+
+.AllTeachers .teachers-content ul {
+    margin: 0;
+    padding: 0;
+}
+
+.AllTeachers .teachers-content ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 15px;
+}
+
+.AllTeachers .teachers-content a {
+    color: white;
+    transition: all 0.5s;
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.AllTeachers .teachers-content a:hover {
+    transform: translateY(-6px);
+}
+
+.AllTeachers .teachers-content p {
+    word-break: break-all;
+}

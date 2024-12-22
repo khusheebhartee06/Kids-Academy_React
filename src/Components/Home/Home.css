@@ -1,0 +1,516 @@
+.section-notch::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    display: block;
+    background-image: url('../../../public/img/section_top.png');
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 9px;
+    z-index: 99;
+}
+
+.section-notch::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    display: block;
+    background-image: url('../../../public/img/section_bottom.png');
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 9px;
+    z-index: 99;
+
+}
+.Homebanner .carousel a,
+.Homeabout .overlay a,
+.Homepopular .row .class-btn a,
+.Homegallery .row .gallery-btn a,
+.Hometeachers .row .teachers-btn a
+ {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: italic;
+    border-radius: 2px;
+    padding: 14px 30px;
+    transition: .25s ease-out;
+    margin-right: 17px;
+}
+/* -----------------------Homebanner------------------------ */
+.Homebanner {
+    position: relative;
+}
+
+
+
+.Homebanner .carousel .img-fluid {
+    filter: brightness(70%);
+    height: 600px;
+    z-index: -1;
+}
+
+.Homebanner .carousel .carousel-caption {
+    top: 25%;
+    left: 10%;
+    width: 50%;
+}
+
+
+
+.Homebanner .carousel .carousel-indicators [data-bs-target] {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 1;
+}
+
+.Homebanner .carousel .carousel-indicators .active {
+    background-color: #FCB614;
+}
+
+@media screen and (max-width:992px) {
+    .Homebanner .carousel .carousel-caption {
+        top: 25%;
+        left: 10%;
+        width: 100%;
+        padding-right: 50px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .Homebanner .carousel .carousel-caption h3 {
+        font-size: 25px;
+    }
+
+    .Homebanner .carousel .carousel-caption h1 {
+        font-size: 40px;
+    }
+
+    .Homebanner .carousel .carousel-caption p {
+        font-size: 14px;
+    }
+}
+
+/* -------------------------Homebanner---------------------- */
+
+/* -------------------------Homefacility---------------------- */
+.Homefacility {
+    text-align: center;
+    position: relative;
+}
+
+.Homefacility .facility-item .icon {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 40px;
+    color: white;
+    line-height: 2.5;
+    transition: transform 1s
+}
+
+.Homefacility .facility-item:hover .icon {
+    transform: rotate(360deg);
+}
+
+/* -------------------------Homefacility---------------------- */
+
+/* --------------------------Homeabout----------------------- */
+.Homeabout {
+    background: url('../../../public/img/about-bg.jpg') no-repeat scroll;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.Homeabout .overlay {
+    background-color: rgba(7, 143, 203, .8);
+
+    color: white;
+}
+
+.Homeabout .overlay p {
+    line-height: 30px;
+    color: white;
+    margin-bottom: 1.75em;
+}
+
+/* --------------------------Homeabout----------------------- */
+/* --------------------------Homepopular----------------------- */
+.Homepopular .popular-header {
+    max-width: 650px;
+    margin: 0px auto 55px;
+}
+
+.Homepopular .popular-header p {
+    line-height: 30px;
+}
+
+.Homepopular .class-item {
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+
+.Homepopular .class-item:hover {
+    box-shadow: 0px 0px 20px 1px gainsboro;
+}
+
+.Homepopular .class-item:hover .class-content {
+    background-color: #fff;
+}
+
+.Homepopular .class-item .class-ul li {
+    float: left;
+    width: 33.33%;
+    margin-bottom: 10px;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: 700;
+    color: white;
+}
+
+.Homepopular .class-item .class-ul li span {
+    display: block;
+    line-height: 20px;
+}
+
+.Homepopular .class-item .class-content {
+    padding: 20px 20px 0px 20px;
+    background-color: #fafafa;
+    transition: all 0.5s;
+}
+
+.Homepopular .class-item .class-content h4 a {
+    text-decoration: none;
+}
+
+.Homepopular .class-item .class-address {
+    overflow: hidden;
+    padding: 8px 20px;
+}
+
+.Homepopular .row .class-btn {
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+}
+
+/* --------------------------Homepopular----------------------- */
+/* --------------------------Hometeachers----------------------- */
+.Hometeachers {
+    position: relative;
+    background: url(../../../public/img/teacher-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.Hometeachers .overlay {
+    background-color: rgba(71, 171, 35, .8);
+}
+
+.Hometeachers .teachers-header {
+    max-width: 650px;
+    margin: 0px auto 55px;
+    text-align: center;
+    color: white;
+}
+
+.Hometeachers .teachers-header p {
+    line-height: 30px;
+    color: white;
+}
+
+.Hometeachers .teachers-content {
+    position: relative;
+}
+
+.Hometeachers .teachers-content ul {
+    margin: 0;
+    padding: 0;
+}
+
+.Hometeachers .teachers-content ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 15px;
+}
+
+.Hometeachers .teachers-content a {
+    color: white;
+    transition: all 0.5s;
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.Hometeachers .teachers-content a:hover {
+    transform: translateY(-6px);
+}
+
+.Hometeachers .teachers-content p {
+    word-break: break-all;
+}
+
+/* --------------------------Hometeachers----------------------- */
+/* --------------------------Homegallery----------------------- */
+.Homegallery {
+    text-align: center;
+    position: relative;
+}
+
+.Homegallery .gallery-header {
+    text-align: center;
+    max-width: 650px;
+    margin: 0px auto 55px;
+}
+
+.Homegallery .col-lg-4 {
+    color: white;
+    position: relative;
+}
+
+.Homegallery .col-lg-4 .gallery-img img {
+
+    width: 100%;
+    height: 100%;
+}
+
+.Homegallery .col-lg-4 .gallery-overlay {
+    opacity: 0.9;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    width: 0%;
+    height: 0%;
+    transition: all 0.7s;
+    margin: auto auto;
+}
+
+.Homegallery .col-lg-4 .gallery-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    width: 100%;
+    height: 0%;
+    transition: all 0.5s;
+
+    overflow: hidden;
+}
+
+.Homegallery .col-lg-4 a {
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    color: #92278F;
+    font-size: 25px;
+    line-height: 2;
+    background-color: white;
+    border: 4px solid rgba(146, 146, 146, 0.5);
+}
+
+.Homegallery .col-lg-4:hover .gallery-overlay {
+    width: 89%;
+    height: 94%;
+}
+
+.Homegallery .col-lg-4:hover .gallery-content {
+    height: 100%;
+    padding: 30% 0;
+}
+
+/* --------------------------Homegallery----------------------- */
+/* --------------------------Homeachievements----------------------- */
+.Homeachievements {
+    position: relative;
+    background: url(../../../public/img/achievements-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.Homeachievements .overlay {
+    background-color: #92278F;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.Homeachievements .overlay p {
+    color: white;
+}
+
+/* --------------------------Homeachievements----------------------- */
+/* --------------------------Hometestimonial----------------------- */
+.Hometestimonial .testimonial-header {
+    text-align: center;
+    max-width: 650px;
+    margin: 0px auto 55px;
+}
+
+.Hometestimonial .parent-item::before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f10d";
+    position: absolute;
+    top: -5px;
+    left: -2px;
+    font-size: 22px;
+    background: #fff;
+    color: #ffc000;
+    line-height: 24px;
+    padding-right: 10px;
+    padding-bottom: 7px;
+}
+
+.Hometestimonial .parent-item::after {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f10e";
+    position: absolute;
+    bottom: -5px;
+    right: -2px;
+    font-size: 22px;
+    background: #fff;
+    color: #ffc000;
+    line-height: 24px;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+
+.Hometestimonial .col-lg-4:nth-child(2) .parent-item::before,
+.Hometestimonial .col-lg-4:nth-child(2) .parent-item::after {
+    color: #e84b3a;
+}
+.Hometestimonial .col-lg-4:nth-child(3) .parent-item::before,
+.Hometestimonial .col-lg-4:nth-child(3) .parent-item::after {
+    color: #fc7f0c;
+}
+
+/* --------------------------Hometestimonial----------------------- */
+/* --------------------------Homepartner----------------------- */
+.Homepartner {
+    position: relative;
+    background: url(../.././../public/img/partner-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.Homepartner .partner-overlay {
+    background-color: rgba(252, 127, 12, .8);
+    text-align: center;
+    color: white;
+}
+
+.Homepartner .partner-overlay .partner-header {
+    max-width: 650px;
+    margin: 0px auto 55px;
+}
+
+.Homepartner .partner-overlay .partner-header p {
+    color: white;
+    line-height: 30px;
+}
+
+/* --------------------------Homepartner----------------------- */
+/* --------------------------Homeevent----------------------- */
+.Homeevent .event-header {
+    text-align: center;
+    max-width: 650px;
+    margin: 0px auto 55px;
+}
+
+.Homeevent .event-header p {
+    line-height: 30px;
+}
+
+/* --------------------------Homeevent----------------------- */
+/* --------------------------Homesubscribe----------------------- */
+.Homesubscribe {
+    position: relative;
+    padding: 55px 0px;
+    background-color: #92278F;
+}
+
+.Homesubscribe::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    background: url(../../../public/img/section_top.png) repeat-x scroll;
+    width: 100%;
+    height: 7px;
+}
+
+.Homesubscribe form input {
+    outline: none;
+    color: white;
+}
+
+.Homesubscribe form input:first-child {
+    background-color: #92278F;
+    border: 2px solid rgba(255, 255, 255, .5);
+    padding: 16px 20px;
+    float: left;
+    width: 68%;
+    color: white;
+    font-style: italic;
+    border-radius: 2px;
+}
+
+.Homesubscribe form input::placeholder {
+    color: white;
+}
+
+.Homesubscribe form input:last-child {
+    background-color: #fff;
+    color: #92278f;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
+    padding: 17px 41px;
+    margin-left: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1199px) {
+    .Homesubscribe form input:first-child {
+        width: 61%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .Homesubscribe form input:first-child {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .Homesubscribe form input:first-child {
+        width: 65%;
+        padding: 13px 20px;
+    }
+
+    .Homesubscribe form input:last-child {
+        padding: 15px 17px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .Homesubscribe form input:first-child {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+/* --------------------------Homesubscribe----------------------- */

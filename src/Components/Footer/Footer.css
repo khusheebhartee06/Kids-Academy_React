@@ -1,0 +1,125 @@
+footer {
+    background: url(../../../public/img/footer-bg.jpg);
+    padding: 100px 0px 10px 0px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* footer top */
+footer .container .col-lg-3 .footer-title {
+    margin-bottom: 30px !important;
+}
+
+footer .container .col-lg-3 .footer-title h2 {
+    margin-bottom: 30px;
+}
+
+footer .container .col-lg-3 li {
+    margin-bottom: 6px;
+}
+
+footer .container .col-lg-3 .social-icon span {
+    height: 36px;
+    width: 36px;
+    text-align: center;
+    border: 1px solid #f0f0f0;
+    border-radius: 2px;
+    display: inline-block;
+    line-height: 36px;
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+footer .container .col-lg-3 .footer-img li {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(228, 228, 228);
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+footer .container .col-lg-3 .footer-img li:last-child {
+    border-bottom: none;
+}
+
+footer .container .col-lg-3 .footer-img li img {
+    margin: 2px 3px;
+    width: 120px;
+    height: 80px;
+}
+
+footer .container .col-lg-3 .footer-icon li {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(228, 228, 228);
+    display: flex;
+    align-items: start;
+    gap: 5px;
+}
+
+footer .container .col-lg-3 .footer-icon li:last-child {
+    border-bottom: none;
+}
+
+footer .container .col-lg-3 .footer-icon span {
+    float: left;
+    height: 22px;
+    width: 27px;
+    color: #fff;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 100%;
+    font-size: 12px;
+    margin-right: 20px;
+    margin-top: 5px;
+    padding: 0px 5px;
+}
+
+footer .container .col-lg-3 .photos li {
+    padding: 5px;
+    width: 33.3%;
+    float: left;
+}
+
+footer .container .col-lg-3 .photos li img {
+    width: 100%;
+}
+
+/* footer top */
+
+
+/* footer bottom */
+ .footer-bottom {
+    border-top: 1px solid #eeefee;
+    background-color: #fafafa;
+    padding: 30px 0px;
+}
+
+ .footer-bottom p a {
+    color: #ee257c;
+    text-decoration: none;
+}
+
+ .footer-bottom .social-default {
+    list-style: none;
+    float: right;
+    overflow: hidden;
+    margin: 0px;
+}
+
+.footer-bottom .social-default li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.footer-bottom .social-default li a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 3;
+    color: #fff;
+    border-radius: 100%;
+}
+/* footer bottom */

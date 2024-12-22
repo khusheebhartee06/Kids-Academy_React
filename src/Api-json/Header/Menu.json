@@ -1,0 +1,174 @@
+[
+    {
+        "lable": "Home",
+        "link": "/",
+        "textColor": "text-red",
+        "isDropdown": true,
+        "dropdownMenu": [
+            {
+                "lable": "Home Style 01",
+                "link": "/",
+                "textColor": "text-red"
+            },
+            {
+                "lable": "Home Style 02",
+                "link": "/",
+                "textColor": "text-red"
+            },
+            {
+                "lable": "Home Style 03",
+                "link": "/",
+                "textColor": "text-red"
+            },
+            {
+                "lable": "One page",
+                "link": "/",
+                "textColor": "text-red"
+            },
+            {
+                "lable": "Boxed Layout",
+                "link": "/",
+                "textColor": "text-red"
+            },
+            {
+                "lable": "RTI Version",
+                "link": "/",
+                "textColor": "text-red"
+            }
+        ]
+    }, {
+        "lable": "About",
+        "link": "/about",
+        "textColor": "text-yellow",
+        "isDropdown": true,
+        "dropdownMenu": [
+            {
+                "lable": "About Style 01",
+                "link": "/about",
+                "textColor": "text-yellow"
+            },
+            {
+                "lable": "About Style 02",
+                "link": "/about",
+                "textColor": "text-yellow"
+            }
+        ]
+    },
+    {
+        "lable": "Classes",
+        "link": "/classes",
+        "textColor": "text-orange",
+        "isDropdown": true,
+        "dropdownMenu": [
+            {
+                "lable": "Classes",
+                "link": "/classes",
+                "textColor": "text-orange"
+            },
+            {
+                "lable": "Classes Details",
+                "link": "/classes",
+                "textColor": "text-orange"
+            }
+        ]
+    },
+    {
+        "lable": "Teachers",
+        "link": "/teachers",
+        "textColor": "text-purple",
+        "isDropdown": true,
+        "dropdownMenu": [
+            {
+                "lable": "Teachers",
+                "link": "/teachers",
+                "textColor": "text-purple"
+            },
+            {
+                "lable": "Teachers Details",
+                "link": "/teachers",
+                "textColor": "text-purple"
+            }
+        ]
+    },
+    {
+        "lable": "Pages",
+        "link": "/gallery",
+        "textColor": "text-lightblue",
+        "isDropdown": true,
+        "dropdownMenu": [
+            {
+                "lable": "Gallery",
+                "link": "/gallery",
+                "textColor": "text-lightblue"
+            },
+            {
+                "lable": "Gallery Two",
+                "link": "/gallery",
+                "textColor": "text-lightblue"
+            },
+            {
+                "lable": "Event",
+                "link": "/event",
+                "textColor": "text-lightblue"
+            },
+            {
+                "lable": "Event Details",
+                "link": "/event",
+                "textColor": "text-lightblue"
+            },
+            {
+                "lable": "404 Error",
+                "link": "/*",
+                "textColor": "text-lightblue"
+            }
+        ]
+    },
+    {
+        "lable": "Blog",
+        "link": "/blog",
+        "textColor": "text-pink",
+        "isDropdown": true,
+        "dropdownMenu": [
+            {
+                "lable": "Blog Page",
+                "link": "/blog",
+                "textColor": "text-pink"
+            },
+            {
+                "lable": "Blog Single",
+                "link": "/blog",
+                "textColor": "text-pink"
+            }
+        ]
+    },
+    {
+        "lable": "Shop",
+        "link": "/product",
+        "textColor": "text-green",
+        "isDropdown": true,
+        "dropdownMenu": [
+            {
+                "lable": "Product Page",
+                "link": "/product",
+                "textColor": "text-green"
+            },
+            {
+                "lable": "Product Details",
+                "link": "/product",
+                "textColor": "text-green"
+            },
+            {
+                "lable": "Shop Cart",
+                "link": "/product",
+                "textColor": "text-green"
+            }
+        ]
+    },
+    {
+        "lable": "Contact",
+        "link": "/contact",
+        "textColor": "text-brown",
+        "isDropdown": false
+    }
+   
+]
